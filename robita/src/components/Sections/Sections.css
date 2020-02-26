@@ -1,0 +1,397 @@
+.section1 {
+    height: 600px;
+    width: 100%;
+    padding-top: 10px;
+  }
+  .section1 h2 {
+    font-size: 30px;
+    padding-top: 16px;
+  }
+  .section1 .section1-title {
+    display: flex;
+    justify-content: center;
+  }
+  .section1 .price-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 3%;
+  }
+  .section1 .price-cards .price-card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    border: 2px solid rgba(110, 108, 108, 0.2);
+    border-radius: 2%;
+    transition: all 0.5s;
+  }
+  .section1 .price-cards .price-card:hover {
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  }
+  .section1 .price-cards .price-card:hover a {
+    background: linear-gradient(to right, #fc851d, #ff6600);
+    border: none;
+  }
+  .section1 .price-cards .price-card:hover a h6 {
+    color: white;
+  }
+  .section1 .price-cards .price-card h3 {
+    font-size: 20px;
+  }
+  .section1 .price-cards .price-card h5 {
+    font-size: 15px;
+  }
+  .section1 .price-cards .price-card p {
+    text-align: center;
+    font-size: 14px;
+    color: #4d4c4c;
+    line-height: 25px;
+  }
+  .section1 .price-cards .price-card a {
+    text-decoration: none;
+    height: 40px;
+    width: 100px;
+    background: none;
+    border: 2px solid #ff6600;
+    border-radius: 5px;
+  }
+  .section1 .price-cards .price-card a:hover {
+    background: linear-gradient(to right, #fc851d, #ff6600);
+    border: none;
+  }
+  .section1 .price-cards .price-card a:hover h6 {
+    color: white;
+  }
+  .section1 .price-cards .price-card a h6 {
+    width: 100%;
+    text-align: center;
+    color: #fc851d;
+    letter-spacing: 4px;
+    padding-top: 12px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 800;
+  }
+  .section1 .price-cards .price-card .price-card-img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    justify-content: center;
+    background-color: #fc851d;
+  }
+  .section1 .price-cards .price-card .price-card-img img {
+    padding-top: 26px;
+  }
+
+  /* Start media */
+  @media only screen and (max-width: 992px) {
+    .section1 {
+        height: 1350px;
+        width: 100%;
+        padding-top: 10px;
+      }
+      .section1 h2 {
+        font-size: 22px;
+        padding-top: 16px;
+      }
+      .section1 .price-cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 3%;
+      }
+  }
+
+  /* End media */
+
+  /* Start section2 */
+
+  .section2 {
+    height: 750px;
+    width: 100%;
+  }
+  .section2 .section2-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  .section2 .section2-container .sec2-team-img {
+    transition: all 1s;
+  }
+  .section2 .section2-container .sec2-team-img img {
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.4), 0 5px 5px 0 rgba(0, 0, 0, 0.4);
+  }
+  .section2 .section2-container .sec2-text {
+    width: 47%;
+    transition: all 2s;
+  }
+  .section2 .section2-container .sec2-text h2 {
+    padding-top: 10px;
+    font-size: 35px;
+  }
+  .section2 .section2-container .sec2-text p {
+    color: gray;
+    font-size: 18px;
+    padding-top: 20px;
+  }
+
+  /* End section2 */
+
+  /* Start media */
+  @media only screen and (max-width: 992px) {
+    .section2 {
+        height: 500px;
+        width: 100%;
+      }
+      .section2 .section2-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+      }
+      .section2 .section2-container .sec2-team-img {
+        transition: all 1s;
+        padding-left: 10%;
+        display: none;
+      }
+      .section2 .section2-container .sec2-team-img img {
+        box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.4), 0 5px 5px 0 rgba(0, 0, 0, 0.4);
+      }
+      .section2 .section2-container .sec2-text {
+        width: 100%;
+        transition: all 2s;
+      }
+      .section2 .section2-container .sec2-text h2 {
+        padding-top: 10px;
+        font-size: 20px;
+        text-align: center;
+      }
+      .section2 .section2-container .sec2-text p {
+        text-align: center;
+        color: gray;
+        font-size: 13px;
+        padding-top: 20px;
+      }
+  }
+
+  @media only screen and (min-width: 992px) {
+    .section2 {
+        height: 820px;
+        width: 100%;
+      }
+      .section2 .section2-container {
+        display: flex;
+        justify-content: space-around;
+      }
+      .section2 .section2-container .sec2-team-img {
+        display: none;
+        transition: all 1s;
+      }
+      .section2 .section2-container .sec2-team-img img {
+        box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.4), 0 5px 5px 0 rgba(0, 0, 0, 0.4);
+      }
+      .section2 .section2-container .sec2-text {
+        width: 47%;
+        transition: all 2s;
+        text-align: center;
+      }
+      .section2 .section2-container .sec2-text h2 {
+        padding-top: 10px;
+        font-size: 35px;
+      }
+      .section2 .section2-container .sec2-text p {
+        color: gray;
+        font-size: 18px;
+        padding-top: 20px;
+      }
+  }
+
+
+  @media only screen and (min-width: 1250px){
+    .section2 .section2-container .sec2-team-img {
+        display: block;
+      }
+      .section2 .section2-container .sec2-text {
+        text-align: center;
+      }
+  }
+  /* End media */
+
+
+  /* start style section3 */
+
+  .section3 {
+    height: 600px;
+    width: 100%;
+    padding-top: 30px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+  }
+  .section3 .sec3-container {
+    width: 100%;
+  }
+  .section3 .sec3-container .sec3-h {
+    display: flex;
+    justify-content: center;
+  }
+  .section3 .sec3-container .sec3-h h2 {
+    font-size: 35px;
+    color: white;
+  }
+  .section3 .sec3-container .sec3-btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .section3 .sec3-container .sec3-btn a {
+    height: 60px;
+    width: 190px;
+    text-decoration: none;
+    background-color: #ff6600;
+    border-radius: 5px;
+    color: white;
+    margin-top: 20px;
+  }
+  .section3 .sec3-container .sec3-btn a h3 {
+    text-align: center;
+    padding-top: 18px;
+    width: 100%;
+  }
+  .section3 .sec3-container .sec3-btn a:hover {
+    background: linear-gradient(to right, #fc851d, #ff6600);
+  }
+  .section3 .sec3-container .sec3-items {
+    padding-top: 5%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-template-rows: 100px 100px 100px;
+    justify-content: center;
+    color: white;
+  }
+  .section3 .sec3-container .sec3-items .sec3-items-cont {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 100px;
+    color: white;
+  }
+  .section3 .sec3-container .sec3-items .sec3-items-cont h3 {
+    padding: 20px;
+  }
+
+  
+  /* Start media */
+  
+  @media only screen and (max-width: 992px) {
+    .section3 {
+        height: 600px;
+        width: 100%;
+        padding-top: 30px;
+        background-color: black;
+        display: flex;
+        align-items: center;
+      }
+      .section3 .sec3-container {
+        width: 100%;
+      }
+      .section3 .sec3-container .sec3-h {
+        display: flex;
+        justify-content: center;
+      }
+      .section3 .sec3-container .sec3-h h2 {
+        font-size: 26px;
+        color: white;
+      }
+      .section3 .sec3-container .sec3-items {
+        padding-top: 5%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 40% 40%;
+        grid-template-rows: 100px 100px 100px;
+        justify-content: center;
+        color: white;
+      }
+      .section3 .sec3-container .sec3-items .sec3-items-cont {
+        display: grid;
+        grid-template-columns: 20% 80%;
+        grid-template-rows: 100px;
+        color: white;
+      }
+      .section3 .sec3-container .sec3-items .sec3-items-cont img {
+        height: 30px;
+      }
+      .section3 .sec3-container .sec3-items .sec3-items-cont h3 {
+        margin-top: 20px;
+        font-size: 15px;
+        padding: 20px;
+      }
+  }
+
+  /* End media */
+
+  /* End style section3 */
+
+  /* Start style Section4 */
+
+  .section4 {
+    width: 100%;
+    height: 400px;
+    background: url("../../images/meeting.jpg") no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 6px 20px 0 rgba(46, 46, 46, 0.4), 0 5px 20px 0 rgba(65, 64, 64, 0.4);
+  }
+  .section4 a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding-top: 3%;
+  }
+  .section4 a button {
+    text-decoration: none;
+    border: 2px solid #fc851d;
+    height: 50px;
+    width: 160px;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 800;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s;
+    color: white;
+    background: none;
+    outline: none;
+  }
+  .section4 a button:hover {
+    border: none;
+    color: white;
+    background: linear-gradient(to right, #fc851d, #ff6600);
+  }
+  .section4 h2 {
+    font-size: 40px;
+    color: white;
+  }
+
+  /* Start media */
+
+  @media only screen and (max-width: 992px) {
+    .section4 h2 {
+        font-size: 26px;
+        color: white;
+      }
+  }
+
+  /* End media */
+
+  /* End Style Section4 */

@@ -1,0 +1,352 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+  }
+    
+   .navbar {
+    width: 100%;
+    height: 75px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+    background-color: black;
+  }
+  .navbar .sign {
+    display: flex;
+    width: 605px;
+    justify-content: flex-end;
+  }
+   .navbar .sign div {
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+    padding-bottom: 6px;
+  }
+   .navbar .sign div .signIn {
+    text-decoration: none;
+    background: none;
+    color: white;
+    border: 2px solid #ff6600;
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+  }
+   .navbar .sign div .signIn h4 {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 14px;
+  }
+   .navbar .sign div .signIn:hover {
+    background: linear-gradient(to right, #fc851d, #ff6600);
+  }
+   .navbar .sign div .start {
+    text-decoration: none;
+    background: linear-gradient(to right, #fc851d, #ff6600);
+    color: white;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+  }
+   .navbar .sign div .start h4 {
+    text-align: center;
+    padding-top: 12px;
+    font-size: 14px;
+  }
+   .navbar ul {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+  }
+   .navbar ul li {
+    list-style: none;
+  }
+   .navbar ul li a {
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s;
+  }
+   .navbar ul li a:hover {
+    color: #27c1fd;
+  }
+   .navbar .logo {
+    position: relative;
+    left: -2.1%;
+    padding-top: 12px;
+  }
+  
+  .active-nav{
+      display: block;
+  }
+  
+  .active{
+      color: #27c1fd;
+  }
+  /* start media */
+  
+  @media only screen and (max-width: 600px) {
+    .navbar {
+      width: 50%;
+    }
+  }
+  
+  
+  
+  
+  @media only screen and (max-width: 992px) {
+    /* Start header for mobile */
+     .navbar {
+      position: static;
+    }
+     .navbar div {
+      width: 500px;
+      height: 70px;
+      display: flex;
+      justify-content: center;
+    }
+     .navbar div .screen-but {
+      width: 160px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      cursor: pointer;
+    }
+    .navbar div .screen-but div {
+      width: 35px;
+      height: 3px;
+      background-color: white;
+      margin: 5px;
+    }
+     .navbar ul, .navbar .sign {
+      display: none;
+    }
+     .nav-screen {
+      display: none;
+      position: absolute;
+      top: 13.5%;
+      height: 550px;
+      width: 100%;
+      background-color: black;
+      z-index: 1;
+      transition: all 0.4s;
+    }
+     .nav-screen ul {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+    }
+     .nav-screen ul li {
+      list-style: none;
+    }
+     .nav-screen ul li a {
+      text-decoration: none;
+      color: white;
+      transition: all 0.5s;
+    }
+     .nav-screen ul li a:hover {
+      color: #27c1fd;
+    }
+     .active-nav {
+      display: block;
+    }
+   
+  }
+  
+  
+  @media only screen and (min-width: 992px) {
+     .navbar {
+      width: 100%;
+      height: 75px;
+      position: fixed;
+      display: flex;
+      align-items: center;
+      z-index: 2;
+    }
+     .navbar .sign {
+      display: flex;
+      width: 300px;
+      justify-content: flex-end;
+    }
+     .navbar .sign div {
+      display: flex;
+      width: 250px;
+      justify-content: space-around;
+      padding-bottom: 6px;
+    }
+     .navbar .sign div .signIn {
+      text-decoration: none;
+      background: none;
+      color: white;
+      border: 2px solid #ff6600;
+      width: 80px;
+      height: 40px;
+      border-radius: 5px;
+    }
+     .navbar .sign div .signIn h4 {
+      text-align: center;
+      padding-top: 10px;
+      font-size: 14px;
+    }
+     .navbar .sign div .signIn:hover {
+      background: linear-gradient(to right, #fc851d, #ff6600);
+    }
+     .navbar .sign div .start {
+      text-decoration: none;
+      background: linear-gradient(to right, #fc851d, #ff6600);
+      color: white;
+      width: 120px;
+      height: 40px;
+      border-radius: 5px;
+    }
+    .navbar .sign div .start h4 {
+      text-align: center;
+      padding-top: 12px;
+      font-size: 14px;
+    }
+     .navbar ul {
+      display: flex;
+      justify-content: space-around;
+      width: 30%;
+    }
+     .navbar ul li {
+      list-style: none;
+    }
+     .navbar ul li a {
+      font-size: 14px;
+      text-decoration: none;
+      color: white;
+      transition: all 0.5s;
+    }
+     .navbar ul li a:hover {
+      color: #27c1fd;
+    }
+     .navbar .logo {
+      position: relative;
+      left: -2.1%;
+      padding-top: 12px;
+    }
+    
+     .nav-screen {
+      display: none;
+    }
+  }
+  
+  
+  
+  @media only screen and (min-width: 1000px) {
+     .navbar .sign {
+      display: flex;
+      width: 350px;
+    }
+     .screen-nav {
+      display: none;
+    }
+  }
+  
+  
+  
+  @media only screen and (min-width: 1100px) {
+    .navbar .sign {
+      display: flex;
+      width: 400px;
+    }
+     .screen-nav {
+      display: none;
+    }
+  }
+  
+  
+  
+  
+  
+  @media only screen and (min-width: 1200px) {
+     .navbar .sign {
+      display: flex;
+      width: 450px;
+    }
+     .screen-nav {
+      display: none;
+    }
+  }
+  
+  
+  @media only screen and (min-width: 1250px) {
+     .navbar {
+      width: 100%;
+      height: 75px;
+      position: fixed;
+      display: flex;
+      align-items: center;
+      z-index: 2;
+    }
+     .navbar .sign {
+      display: flex;
+      width: 605px;
+      justify-content: flex-end;
+    }
+     .navbar .sign div {
+      display: flex;
+      width: 300px;
+      justify-content: space-around;
+      padding-bottom: 6px;
+    }
+     .navbar .sign div .signIn {
+      text-decoration: none;
+      background: none;
+      color: white;
+      border: 2px solid #ff6600;
+      width: 80px;
+      height: 40px;
+      border-radius: 5px;
+    }
+     .navbar .sign div .signIn h4 {
+      text-align: center;
+      padding-top: 10px;
+      font-size: 14px;
+    }
+     .navbar .sign div .signIn:hover {
+      background: linear-gradient(to right, #fc851d, #ff6600);
+    }
+     .navbar .sign div .start {
+      text-decoration: none;
+      background: linear-gradient(to right, #fc851d, #ff6600);
+      color: white;
+      width: 120px;
+      height: 40px;
+      border-radius: 5px;
+    }
+    .navbar .sign div .start h4 {
+      text-align: center;
+      padding-top: 12px;
+      font-size: 14px;
+    }
+     .navbar ul {
+      display: flex;
+      justify-content: space-around;
+      width: 30%;
+    }
+     .navbar ul li {
+      list-style: none;
+    }
+    .navbar ul li a {
+      font-size: 16px;
+      text-decoration: none;
+      color: white;
+      transition: all 0.5s;
+    }
+    .navbar ul li a:hover {
+      color: #27c1fd;
+    }
+    .navbar .logo {
+      position: relative;
+      left: -2.1%;
+      padding-top: 12px;
+    }
+  }
+  
+  /* End media */

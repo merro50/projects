@@ -1,0 +1,350 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  body {
+    height: 1500px;
+  }
+  
+  /* Start Style Navbar */
+  .header-section-plan .header-plan {
+    height: 350px;
+    background: url("../../images/acceptPlan.jpg") no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .header-section-plan .header-plan .container {
+    height: 300px;
+    width: 100%;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+  }
+  .header-section-plan .header-plan .container h6 {
+    color: #ff6600;
+    font-size: 18px;
+  }
+  .header-section-plan .header-plan .container h1 {
+    font-size: 43px;
+    font-weight: 400;
+    color: white;
+  }
+  .header-section-plan .header-plan .container h4 {
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+  }
+  .header-section-plan .header-plan .container a {
+    text-decoration: none;
+    color: white;
+    height: 57px;
+    width: 250px;
+    background: none;
+    border: 2px #ff6600 solid;
+    border-radius: 5px;
+    padding-top: 10px;
+  }
+  .header-section-plan .header-plan .container a:hover {
+    background: linear-gradient(to right, #fc851d, #ff6600);
+    border: none;
+  }
+  .header-section-plan .header-plan .container a:hover h3 {
+    padding-top: 0px;
+  }
+  .header-section-plan .header-plan .container a h3 {
+    padding-top: 3.5px;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    transition: all 0.2s;
+  }
+  
+  /* End Style Header */
+  /* Start style section1 */
+  .sectionOne {
+    height: 530px;
+  }
+  .sectionOne .container {
+    display: flex;
+    height: 500px;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .sectionOne .container .price-card-plan {
+    height: 370px;
+    width: 350px;
+  }
+  .sectionOne .container .price-card-plan h3 {
+    width: 100%;
+    text-align: center;
+    height: 28px;
+    background-color: #ff6600;
+    letter-spacing: 3px;
+    color: white;
+  }
+  .sectionOne .container .price-card-plan .card-content {
+    height: 300px;
+  }
+  .sectionOne .container .price-card-plan .card-content .card-but {
+    display: flex;
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+  }
+  .sectionOne .container .price-card-plan .card-content .card-but a {
+    text-decoration: none;
+    color: white;
+    height: 45px;
+    width: 150px;
+    background: #fc851d;
+    border: 2px #ff6600 solid;
+    border-radius: 5px;
+    padding-top: 10px;
+  }
+  .sectionOne .container .price-card-plan .card-content .card-but a:hover {
+    background: linear-gradient(to right, #fc851d, #ff6600);
+    border: none;
+  }
+  .sectionOne .container .price-card-plan .card-content .card-but a:hover h3 {
+    padding-top: 0px;
+  }
+  .sectionOne .container .price-card-plan .card-content .card-but a h3 {
+    padding-top: 3.5px;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    transition: all 0.2s;
+  }
+  .sectionOne .container .price-card-plan .card-content h1 {
+    padding-top: 30px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* End style section1 */
+  /* Start Style section2 */
+  .sectionTwo {
+    width: 100%;
+    height: 400px;
+    background-color: #eceaea;
+  }
+  .sectionTwo .container {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .sectionTwo .container .contact-card {
+    width: 350px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .sectionTwo .container .contact-card .phon-icon {
+    width: 100%;
+  }
+  .sectionTwo .container .contact-card h1 {
+    padding-top: 10px;
+  }
+  .sectionTwo .container .contact-card p {
+    padding-top: 10px;
+  }
+  .sectionTwo .container .contact-card .contact-but {
+    display: flex;
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+  }
+  .sectionTwo .container .contact-card .contact-but a {
+    text-decoration: none;
+    color: #ff6600;
+    height: 45px;
+    width: 150px;
+    background: none;
+    border: 2px #ff6600 solid;
+    border-radius: 5px;
+    padding-top: 10px;
+  }
+  .sectionTwo .container .contact-card .contact-but a:hover {
+    background: linear-gradient(to right, #fc851d, #ff6600);
+    color: white;
+    border: none;
+  }
+  .sectionTwo .container .contact-card .contact-but a:hover h3 {
+    padding-top: 0px;
+  }
+  .sectionTwo .container .contact-card .contact-but a h3 {
+    padding-top: 3.5px;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    transition: all 0.2s;
+  }
+  
+  /* End Style Section2 */
+  /* Start Style footer */
+  .footer {
+    height: 300px;
+    width: 100%;
+    background-color: #474F5C;
+  }
+  .footer .container {
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;
+  }
+  .footer .container div {
+    padding-top: 10px;
+    height: 300px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer .container div .logo {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: flex-end;
+    margin-left: 15px;
+  }
+  .footer .container div p {
+    color: white;
+  }
+  .footer .container div ul {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    align-items: flex-end;
+  }
+  .footer .container div ul li {
+    list-style: none;
+    padding: 10px;
+  }
+  .footer .container div ul li a {
+    text-decoration: none;
+    color: white;
+    transition: all 0.2s ease-in-out;
+  }
+  .footer .container div ul li a:hover {
+    color: #ff6600;
+  }
+  
+  /* End Style footer */
+  /*----------------------------------------------------------------------------------------------------------------------------*/
+  /* Start Media */
+  @media only screen and (max-width: 600px) {
+  
+    .footer {
+      height: 1100px;
+    }
+    .footer .container {
+      height: 1100px;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  }
+  @media only screen and (max-width: 992px) {
+    /* Start header for mobile */
+    .headerr .header-plan {
+      height: 350px;
+      background: url("../../images/acceptPlan.jpg") no-repeat;
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .headerr .header-plan .container {
+      height: 300px;
+      width: 100%;
+      padding-top: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      justify-content: space-between;
+    }
+    .headerr .header-plan .container h6 {
+      color: #ff6600;
+      font-size: 14px;
+    }
+    .headerr .header-plan .container h1 {
+      font-size: 35px;
+      font-weight: 400;
+      color: white;
+    }
+    .headerr .header-plan .container h4 {
+      font-size: 20px;
+      font-weight: 400;
+      color: white;
+    }
+    .headerr .header-plan .container a {
+      text-decoration: none;
+      color: white;
+      height: 57px;
+      width: 250px;
+      background: none;
+      border: 2px #ff6600 solid;
+      border-radius: 5px;
+      padding-top: 10px;
+    }
+    .headerr .header-plan .container a:hover {
+      background: linear-gradient(to right, #fc851d, #ff6600);
+      border: none;
+    }
+    .headerr .header-plan .container a:hover h3 {
+      padding-top: 0px;
+    }
+    .headerr .header-plan .container a h3 {
+      padding-top: 3.5px;
+      font-size: 18px;
+      font-weight: 300;
+      letter-spacing: 2px;
+      transition: all 0.2s;
+    }
+    .headerr .nav-screen {
+      display: none;
+    }
+  
+    /* Start section1 */
+    .sectionOne {
+      height: 1500px;
+    }
+    .sectionOne .container {
+      display: flex;
+      flex-direction: column;
+      height: 1500px;
+    }
+  
+    /* End Section1 */
+    /* Start Section2 */
+    .sectionTwo {
+      height: 1200px;
+    }
+    .sectionTwo .container {
+      height: 1200px;
+      flex-direction: column;
+    }
+  
+    /* End Section2 */
+  }
+ 
+  
